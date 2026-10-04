@@ -57,6 +57,10 @@ Swagger UI: http://localhost:5080/swagger
    ```
    Open http://localhost:4200.
 
+## CI
+
+`.github/workflows/ci.yml` builds the API, runs the xUnit tests and builds the Angular client on every push and pull request.
+
 ## Next steps
 
 - Lottery for weekend morning tee times
